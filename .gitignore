@@ -1,0 +1,9 @@
+__pycache__
+./venv/
+./graphQL/__pycache__
+./model/__pycache__
+./routers/__pycache__
+./service/__pycache__
+./configuration/__pycache__
+*.log
+*.log.*
