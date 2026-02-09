@@ -54,7 +54,7 @@ def update_address(address_id: int,
         data=result
     )
 
-@router.get("/addresses", response_model=PaginatedSuccessResponse)
+@router.get("/list/", response_model=PaginatedSuccessResponse)
 def list_addresses(
     db: Session = Depends(get_db),
     page: int = Query(1, ge=1, description="Page number"),

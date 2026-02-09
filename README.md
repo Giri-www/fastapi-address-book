@@ -4,15 +4,18 @@
 ## Overview
 
 **Address API** is a FastAPI-based backend service for managing addresses.  
-It is designed following **industry-standard architecture** with layered design, standardized responses, and scalable endpoints.
+It is designed following **standard architecture** with layered design, standardized responses, and scalable endpoints.
 
 The API provides:
 
+ 
 - CRUD operations for addresses
 - Paginated listing with search and sorting
 - Nearby address search using latitude, longitude, and distance
 - Standardized JSON responses
 - Custom exception handling
+- logging Middleware 
+- logging tracking and monitoring
 
 ---
 
@@ -31,7 +34,49 @@ This project follows **API → Service → Repository → Database** separation:
 - **Schemas** → Pydantic models for request validation and response serialization.  
 - **Middleware** → Logger middleware for API debugging and monitoring console output.
 
-## Installation
+
+## Features
+
+### CRUD Operations
+- Create, Read, Update, and Delete addresses with full data validation and transaction safety.
+
+### Pagination & Filtering
+- Fetch addresses with support for pagination.
+- Flexible search queries for filtering results.
+
+### Nearby Search
+- Find addresses within a specific radius of a given location using geospatial queries.
+
+
+### Example Response: Fetch Addresses
+
+**Request:** `GET /addresses?page=1&page_size=10`
+
+**Response Body:**
+```json
+{
+  "success": true,
+  "message": "Addresses fetched successfully",
+  "meta": {
+    "page": 1,
+    "page_size": 10,
+    "total": 1,
+    "total_pages": 1
+  },
+  "data": [
+    {
+      "id": 1,
+      "name": "Rahul Office2",
+      "street": "New Town Action Area 1",
+      "city": "Kolkata",
+      "latitude": 22.575,
+      "longitude": 88.479
+    }
+  ]
+}
+```
+
+### Installation
 
 1. Clone the repository:
 
