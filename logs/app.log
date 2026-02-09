@@ -1,0 +1,1779 @@
+2026-02-09 16:47:56,445 | INFO | app | address_service.py:22 | []
+2026-02-09 16:49:37,711 | INFO | app | logging_middleware.py:19 | Incoming request: GET /addresses/
+2026-02-09 16:49:37,718 | INFO | app | address_service.py:22 | []
+2026-02-09 16:49:37,720 | INFO | app | logging_middleware.py:29 | Completed 404 in 0.0083s
+2026-02-09 16:49:37,720 | INFO | app | logging_middleware.py:44 | Request completed: GET /addresses/
+2026-02-09 16:49:52,500 | INFO | app | address_service.py:22 | []
+2026-02-09 16:49:53,487 | INFO | app | address_service.py:22 | []
+2026-02-09 16:49:54,382 | INFO | app | address_service.py:22 | []
+2026-02-09 16:50:02,125 | INFO | app | logging_middleware.py:19 | Incoming request: GET /addresses/
+2026-02-09 16:50:02,137 | INFO | app | address_service.py:22 | []
+2026-02-09 16:50:02,139 | INFO | app | logging_middleware.py:29 | Completed 404 in 0.0138s
+2026-02-09 16:50:02,140 | INFO | app | logging_middleware.py:44 | Request completed: GET /addresses/
+2026-02-09 16:54:10,576 | INFO | app | logging_middleware.py:24 | Incoming request: GET /docs
+2026-02-09 16:54:10,577 | INFO | app | logging_middleware.py:34 | Completed 200 in 0.0011s
+2026-02-09 16:54:10,577 | INFO | app | logging_middleware.py:49 | Request completed: GET /docs
+2026-02-09 16:54:11,035 | INFO | app | logging_middleware.py:24 | Incoming request: GET /openapi.json
+2026-02-09 16:54:11,040 | INFO | app | logging_middleware.py:34 | Completed 200 in 0.0052s
+2026-02-09 16:54:11,040 | INFO | app | logging_middleware.py:49 | Request completed: GET /openapi.json
+2026-02-09 16:58:02,806 | INFO | app | logging_middleware.py:23 | Incoming request: GET /docs
+2026-02-09 16:58:02,807 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0013s
+2026-02-09 16:58:02,807 | INFO | app | logging_middleware.py:48 | Request completed: GET /docs
+2026-02-09 16:58:03,002 | INFO | app | logging_middleware.py:23 | Incoming request: GET /openapi.json
+2026-02-09 16:58:03,008 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.006s
+2026-02-09 16:58:03,008 | INFO | app | logging_middleware.py:48 | Request completed: GET /openapi.json
+2026-02-09 17:01:02,604 | INFO | app | logging_middleware.py:23 | Incoming request: POST /addresses/
+2026-02-09 17:01:02,608 | INFO | app | logging_middleware.py:33 | Completed 422 in 0.0041s
+2026-02-09 17:01:02,609 | INFO | app | logging_middleware.py:48 | Request completed: POST /addresses/
+2026-02-09 17:02:47,189 | INFO | app | logging_middleware.py:23 | Incoming request: POST /addresses/
+2026-02-09 17:02:47,232 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0426s
+2026-02-09 17:02:47,232 | INFO | app | logging_middleware.py:48 | Request completed: POST /addresses/
+2026-02-09 17:03:20,734 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:03:20,737 | INFO | app | address_service.py:22 | [<Address(id=1, name='Rahul Home', city='Kolkata')>]
+2026-02-09 17:03:20,738 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0044s
+2026-02-09 17:03:20,739 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 17:04:17,190 | INFO | app | logging_middleware.py:23 | Incoming request: DELETE /addresses/1
+2026-02-09 17:04:17,215 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0249s
+2026-02-09 17:04:17,216 | INFO | app | logging_middleware.py:48 | Request completed: DELETE /addresses/1
+2026-02-09 17:04:26,927 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:04:26,931 | INFO | app | address_service.py:22 | []
+2026-02-09 17:04:26,932 | INFO | app | logging_middleware.py:33 | Completed 404 in 0.0049s
+2026-02-09 17:04:26,932 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 17:39:06,732 | INFO | app | logging_middleware.py:23 | Incoming request: GET /docs
+2026-02-09 17:39:06,733 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.001s
+2026-02-09 17:39:06,734 | INFO | app | logging_middleware.py:48 | Request completed: GET /docs
+2026-02-09 17:39:07,199 | INFO | app | logging_middleware.py:23 | Incoming request: GET /openapi.json
+2026-02-09 17:39:07,205 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0065s
+2026-02-09 17:39:07,205 | INFO | app | logging_middleware.py:48 | Request completed: GET /openapi.json
+2026-02-09 17:39:22,659 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:39:22,668 | INFO | app | address_service.py:31 | []
+2026-02-09 17:39:22,670 | INFO | app | logging_middleware.py:33 | Completed 404 in 0.0106s
+2026-02-09 17:39:22,670 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 17:39:48,503 | INFO | app | logging_middleware.py:23 | Incoming request: POST /addresses/
+2026-02-09 17:39:48,520 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0167s
+2026-02-09 17:39:48,520 | INFO | app | logging_middleware.py:48 | Request completed: POST /addresses/
+2026-02-09 17:40:05,988 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:40:06,011 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0227s
+2026-02-09 17:40:06,012 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:40:21,409 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:40:21,411 | INFO | app | address_service.py:31 | [<Address(id=1, name='Rahul Office2', city='Kolkata')>]
+2026-02-09 17:40:21,412 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0036s
+2026-02-09 17:40:21,413 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 17:41:21,935 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:41:21,937 | INFO | app | logging_middleware.py:33 | Completed 422 in 0.0024s
+2026-02-09 17:41:21,938 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:44:37,260 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:44:37,264 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 24, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:44:37,312 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:47:43,965 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:47:43,970 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 24, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:47:43,976 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:47:45,185 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:47:45,188 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 24, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:47:45,191 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:47:49,027 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:47:49,030 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 24, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:47:49,033 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:48:27,229 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:48:27,235 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 24, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:48:27,265 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:49:50,627 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:49:50,631 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 'RequestValidationError' object has no attribute 'status_code'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 59, in wrapped_app
+    response = await handler(conn, exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\core\exception_handelers.py", line 30, in app_exception_handler
+    status_code=exc.status_code,
+                ^^^^^^^^^^^^^^^
+AttributeError: 'RequestValidationError' object has no attribute 'status_code'
+2026-02-09 17:49:50,644 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:50:45,209 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:50:45,214 | INFO | app | logging_middleware.py:33 | Completed 422 in 0.0046s
+2026-02-09 17:50:45,218 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:51:01,128 | INFO | app | logging_middleware.py:23 | Incoming request: PUT /addresses/1
+2026-02-09 17:51:01,131 | INFO | app | logging_middleware.py:33 | Completed 422 in 0.0029s
+2026-02-09 17:51:01,131 | INFO | app | logging_middleware.py:48 | Request completed: PUT /addresses/1
+2026-02-09 17:52:47,442 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:52:47,468 | INFO | app | address_service.py:31 | [<Address(id=1, name='Rahul Office2', city='Kolkata')>]
+2026-02-09 17:52:47,470 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0272s
+2026-02-09 17:52:47,470 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 17:52:50,437 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/
+2026-02-09 17:52:50,440 | INFO | app | address_service.py:31 | [<Address(id=1, name='Rahul Office2', city='Kolkata')>]
+2026-02-09 17:52:50,440 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0036s
+2026-02-09 17:52:50,441 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/
+2026-02-09 18:17:21,911 | INFO | app | logging_middleware.py:23 | Incoming request: GET /docs
+2026-02-09 18:17:21,912 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0014s
+2026-02-09 18:17:21,912 | INFO | app | logging_middleware.py:48 | Request completed: GET /docs
+2026-02-09 18:17:22,413 | INFO | app | logging_middleware.py:23 | Incoming request: GET /openapi.json
+2026-02-09 18:17:22,426 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0124s
+2026-02-09 18:17:22,426 | INFO | app | logging_middleware.py:48 | Request completed: GET /openapi.json
+2026-02-09 18:17:32,707 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:17:32,712 | ERROR | app | logging_middleware.py:41 | Unhandled exception: type object 'AddressService' has no attribute 'list'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 44, in list_addresses
+    results, total = AddressService.list(db, skip=skip, limit=page_size, search=search)
+                     ^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'AddressService' has no attribute 'list'
+2026-02-09 18:17:32,725 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:18:19,649 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:18:19,654 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 44, in list_addresses
+    results, total = AddressService.get_all(db, skip=skip, limit=page_size, search=search)
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:18:19,667 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:18:21,082 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:18:21,085 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 44, in list_addresses
+    results, total = AddressService.get_all(db, skip=skip, limit=page_size, search=search)
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:18:21,092 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:19:17,678 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:19:17,686 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 44, in list_addresses
+    results, total = AddressService.get_all(db, skip=skip, limit=page_size, search=search)
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:19:17,711 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:19:54,158 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:19:54,161 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'limit'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 44, in list_addresses
+    results, total = AddressService.get_all(db, limit=page_size, search=search)
+                     ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'limit'
+2026-02-09 18:19:54,176 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:20:59,553 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:20:59,558 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:20:59,568 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:23:25,009 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:23:25,013 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:23:25,024 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:24:00,476 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:24:00,499 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:24:00,513 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:24:42,911 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:24:42,914 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:24:42,929 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:24:44,150 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:24:44,171 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:24:44,181 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:25:01,542 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:25:01,546 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+    ...<4 lines>...
+        sort_order=sort_order
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:25:01,558 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:25:25,156 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:25:25,160 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+        skip=skip,
+        ^^^^^^^^^^
+        limit=page_size,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:25:25,170 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:25:57,760 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:25:57,764 | ERROR | app | logging_middleware.py:41 | Unhandled exception: AddressService.get_all() got an unexpected keyword argument 'skip'
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 48, in list_addresses
+    results, total = AddressService.get_all(
+                     ~~~~~~~~~~~~~~~~~~~~~~^
+        db,
+        ^^^
+        skip=skip,
+        ^^^^^^^^^^
+        limit=page_size,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: AddressService.get_all() got an unexpected keyword argument 'skip'
+2026-02-09 18:25:57,773 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:27:27,435 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:27:27,459 | ERROR | app | logging_middleware.py:41 | Unhandled exception: You must set the config attribute `from_attributes=True` to use from_orm
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 64, in list_addresses
+    data=[AddressResponse.from_orm(a) for a in results]
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\pydantic\main.py", line 1472, in from_orm
+    raise PydanticUserError(
+        'You must set the config attribute `from_attributes=True` to use from_orm', code=None
+    )
+pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
+2026-02-09 18:27:27,541 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:27:41,977 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:27:41,992 | ERROR | app | logging_middleware.py:41 | Unhandled exception: You must set the config attribute `from_attributes=True` to use from_orm
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 64, in list_addresses
+    data=[AddressResponse.from_orm(a) for a in results]
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\pydantic\main.py", line 1472, in from_orm
+    raise PydanticUserError(
+        'You must set the config attribute `from_attributes=True` to use from_orm', code=None
+    )
+pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
+2026-02-09 18:27:42,005 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:28:51,009 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:28:51,034 | ERROR | app | logging_middleware.py:41 | Unhandled exception: You must set the config attribute `from_attributes=True` to use from_orm
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 64, in list_addresses
+    data=[AddressResponse.from_orm(a) for a in results]
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\pydantic\main.py", line 1472, in from_orm
+    raise PydanticUserError(
+        'You must set the config attribute `from_attributes=True` to use from_orm', code=None
+    )
+pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
+2026-02-09 18:28:51,052 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:29:13,412 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:29:13,427 | ERROR | app | logging_middleware.py:41 | Unhandled exception: You must set the config attribute `from_attributes=True` to use from_orm
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 64, in list_addresses
+    data=[AddressResponse.from_orm(a) for a in results]
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\pydantic\main.py", line 1472, in from_orm
+    raise PydanticUserError(
+        'You must set the config attribute `from_attributes=True` to use from_orm', code=None
+    )
+pydantic.errors.PydanticUserError: You must set the config attribute `from_attributes=True` to use from_orm
+2026-02-09 18:29:13,439 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:30:11,282 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:30:11,301 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0188s
+2026-02-09 18:30:11,301 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:33:23,317 | INFO | app | logging_middleware.py:23 | Incoming request: POST /addresses/
+2026-02-09 18:33:23,337 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0193s
+2026-02-09 18:33:23,337 | INFO | app | logging_middleware.py:48 | Request completed: POST /addresses/
+2026-02-09 18:33:31,599 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:33:31,610 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0107s
+2026-02-09 18:33:31,610 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:33:39,160 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:33:39,170 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0102s
+2026-02-09 18:33:39,171 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 18:41:35,153 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:41:35,173 | ERROR | app | logging_middleware.py:41 | Unhandled exception: 1 validation error for PaginatedSuccessResponse
+meta
+  Field required [type=missing, input_value={'message': 'Addresses fe...ccessfully', 'data': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 151, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\streams\memory.py", line 126, in receive
+    raise EndOfStream from None
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\middleware\logging_middleware.py", line 29, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    raise app_exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\base.py", line 144, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\middleware\exceptions.py", line 63, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 716, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 736, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\routing.py", line 290, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 123, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    raise exc
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\_exception_handler.py", line 42, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 109, in app
+    response = await f(request)
+               ^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 387, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\fastapi\routing.py", line 290, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\starlette\concurrency.py", line 38, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        func, args, abandon_on_cancel=abandon_on_cancel, limiter=limiter
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2485, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\anyio\_backends\_asyncio.py", line 976, in run
+    result = context.run(func, *args)
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\address_books\app\api\address_api.py", line 132, in nearby
+    return PaginatedSuccessResponse(
+        message="Addresses fetched successfully",
+        data=[AddressResponse.from_orm(a) for a in result]
+    )
+  File "C:\Users\USER\Desktop\New folder (2)\New folder (2)\cvenv\Lib\site-packages\pydantic\main.py", line 250, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+pydantic_core._pydantic_core.ValidationError: 1 validation error for PaginatedSuccessResponse
+meta
+  Field required [type=missing, input_value={'message': 'Addresses fe...ccessfully', 'data': []}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.12/v/missing
+2026-02-09 18:41:35,185 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:41:54,352 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:41:54,369 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0165s
+2026-02-09 18:41:54,369 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:50:52,539 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:50:52,572 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.033s
+2026-02-09 18:50:52,572 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:51:32,586 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:51:32,590 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0038s
+2026-02-09 18:51:32,591 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:52:24,089 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:52:24,119 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0305s
+2026-02-09 18:52:24,120 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:52:56,590 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:52:56,594 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.004s
+2026-02-09 18:52:56,594 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:54:00,937 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:54:00,941 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0036s
+2026-02-09 18:54:00,941 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:03,171 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:55:03,175 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0041s
+2026-02-09 18:55:03,176 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:15,395 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:55:15,398 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.003s
+2026-02-09 18:55:15,399 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:21,421 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:55:21,425 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0037s
+2026-02-09 18:55:21,425 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:25,069 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:55:25,072 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0034s
+2026-02-09 18:55:25,072 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:28,312 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/nearby/
+2026-02-09 18:55:28,315 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0036s
+2026-02-09 18:55:28,316 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/nearby/
+2026-02-09 18:55:38,947 | INFO | app | logging_middleware.py:23 | Incoming request: GET /addresses/addresses
+2026-02-09 18:55:38,962 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.0142s
+2026-02-09 18:55:38,962 | INFO | app | logging_middleware.py:48 | Request completed: GET /addresses/addresses
+2026-02-09 19:00:51,147 | INFO | app | logging_middleware.py:23 | Incoming request: POST /addresses/
+2026-02-09 19:00:51,167 | INFO | app | logging_middleware.py:33 | Completed 200 in 0.02s
+2026-02-09 19:00:51,168 | INFO | app | logging_middleware.py:48 | Request completed: POST /addresses/
